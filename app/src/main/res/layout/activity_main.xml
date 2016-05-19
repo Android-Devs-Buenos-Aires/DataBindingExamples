@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <data>
+        <variable
+            name="Handlers"
+            type="com.ezanetta.databindingexamples.Handlers.MainActivityHandlers" />
+    </data>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/activity_vertical_margin"
+        tools:context="com.ezanetta.databindingexamples.MainActivity">
+
+        <Button
+            android:onClick="@{Handlers.onClickOneWayBinding}"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/one_way_binding" />
+
+        <Button
+            android:onClick="@{Handlers.onClickTwoWayBinding}"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/two_way_binding" />
+
+        <Button
+            android:onClick="@{Handlers.onClickListBinding}"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/list" />
+
+    </LinearLayout>
+
+</layout>
+
+

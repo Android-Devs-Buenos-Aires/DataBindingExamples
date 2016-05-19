@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">DataBindingExamples</string>
+    <string name="one_way_binding">One way binding</string>
+    <string name="two_way_binding">Two way binding</string>
+    <string name="list">List</string>
+    <string name="get_time">Get Time</string>
+    <string name="empty_time">Todavia no hay un valor seteado</string>
+
+    <string-array name="languages_names">
+        <item>Kotlin</item>
+        <item>Java</item>
+        <item>Swift</item>
+        <item>Javascript</item>
+        <item>PHP</item>
+        <item>Ruby</item>
+        <item>Python</item>
+        <item>C#</item>
+        <item>C++</item>
+    </string-array>
+
+    <string-array name="languages_logos">
+        <item>http://i.imgur.com/qwwjdjZ.png</item>
+        <item>http://i.imgur.com/WT8Yhab.png</item>
+        <item>http://i.imgur.com/wY2tVjE.png</item>
+        <item>http://i.imgur.com/YoroRh0.jpg</item>
+        <item>http://i.imgur.com/AVueHWr.png</item>
+        <item>http://i.imgur.com/Xs969Jy.gif</item>
+        <item>http://i.imgur.com/7sLx1Ar.png</item>
+        <item>http://i.imgur.com/Y75E2O9.jpg</item>
+        <item>http://i.imgur.com/PCowLOo.png</item>
+    </string-array>
+</resources>
